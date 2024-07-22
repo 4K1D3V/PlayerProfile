@@ -31,7 +31,7 @@ public class PlayerProfiles extends JavaPlugin {
         instance = this;
         // Injecting the libs
         MCLibs.init(this);
-        Common.setPrefix("[PlayerProfiles]");
+        Common.setPrefix("[AdvancedProfiles]");
         // Check the dependency
         DependencyManager.checkDependency();
         // Initialize all config
